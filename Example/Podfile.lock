@@ -1,0 +1,14 @@
+PODS:
+  - Neuron (0.1.0)
+
+DEPENDENCIES:
+  - Neuron (from `../`)
+
+EXTERNAL SOURCES:
+  Neuron:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Neuron: dee76b99adfedf796710eaf0c82cf3b437486c08
+
+COCOAPODS: 0.38.2

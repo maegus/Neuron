@@ -1,0 +1,6 @@
+framework module Neuron {
+  umbrella header "Neuron-umbrella.h"
+
+  export *
+  module * { export * }
+}
