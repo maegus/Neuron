@@ -13,9 +13,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let target: TargetObject = "view"
+        let target: TargetObject = "View"
         let signal: NeuronSignal = NeuronSignal(target: target)
-        view.neuron.basedOnTarget("view") { (value) -> () in
+        view.neuron.basedOnTarget(target) { (value) -> () in
             self.view.backgroundColor = UIColor.redColor()
         }
         signal.fire()
