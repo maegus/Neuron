@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7026064823CE10B54C34A5F0"
+               BlueprintIdentifier = "E222A69636D5A56541203442"
                BuildableName = "Neuron.framework"
                BlueprintName = "Neuron"
                ReferencedContainer = "container:Pods.xcodeproj">

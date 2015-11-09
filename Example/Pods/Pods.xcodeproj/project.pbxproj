@@ -7,78 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22D068EB22707378122D78FB1B221CF2 /* Neuron-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D997137C8877AB3F175E10D5BF80D159 /* Neuron-dummy.m */; };
-		30586FBD5C6BAA7D37B61BD190305C38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38350D73618AE322FC2A8AC45B1759F2 /* Foundation.framework */; };
-		4620EF4A298AACCF705525BDC81DFF90 /* Neuron.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 73182C755A02199AC20BAD9E07849C7D /* Neuron.bundle */; };
+		10FD9002FCF33036B56BE36F3CE4838E /* Neuron-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19D8B75F7B890DAE6A96F4A27B639354 /* Neuron-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30586FBD5C6BAA7D37B61BD190305C38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5F818A1377CBEB274168C0AC176312 /* Foundation.framework */; };
 		4A93CF593D913B6903719BF99C3B2A22 /* Pods-Neuron_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 790917445606021C7E128F53C76842DB /* Pods-Neuron_Example-dummy.m */; };
 		5DAB5DC8C124040099A8CE47DD17D73A /* Pods-Neuron_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1303B6554A97241404713444953AA0F2 /* Pods-Neuron_Tests-dummy.m */; };
-		72680F0B1BF0534000C4CFAD /* Neuron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72680F081BF0534000C4CFAD /* Neuron.swift */; };
-		72680F0C1BF0534000C4CFAD /* NeuronSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72680F091BF0534000C4CFAD /* NeuronSignal.swift */; };
-		72680F0D1BF0534000C4CFAD /* TargetObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72680F0A1BF0534000C4CFAD /* TargetObject.swift */; };
+		673E7B482ACDDDF172AAEAF52DBC2056 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5F818A1377CBEB274168C0AC176312 /* Foundation.framework */; };
+		729411354638219EBB2BE07E5071D956 /* Neuron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41655C12977D6C73B4EC6E0721CA528F /* Neuron.swift */; };
+		798C448E2E1AD1D2D1AF476C5CAA959F /* Neuron-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C59D4DD603D50C9FB652D3785BD692A1 /* Neuron-dummy.m */; };
+		80FD0D60CCF8BB110FA110439B407C4C /* Neuron.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E99B346934427FDAC9F439AAE2723C4 /* Neuron.bundle */; };
+		9B674F511FBC1C2B2A7045DFFB290A6E /* TargetObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056229A4970B3875D104EC4E2AFE7742 /* TargetObject.swift */; };
 		A318E570C90C18EA1ED33BD1B4B5FD6F /* Pods-Neuron_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42B09AE29B6ABF741F607ACFA7E4E5DA /* Pods-Neuron_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6F37C27056733E10010D01F0ECDDDDE /* NeuronSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C287C642E7A3A3F566286D5212EF3EBA /* NeuronSignal.swift */; };
 		E0DF1B921CE07012111F661F09194D59 /* Pods-Neuron_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7FBCD74CA87345203CE48DA9AE85DA0 /* Pods-Neuron_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F864EA94A9F7890742BB0AF0C4CB05B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38350D73618AE322FC2A8AC45B1759F2 /* Foundation.framework */; };
-		FB83BBDE5F54D9C453E6642977B77BCF /* Neuron-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4BDB1B5FD6D8C1E5504EB02CB60313C /* Neuron-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF3A9EBDCA03DE744B4163FFA66DE8F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38350D73618AE322FC2A8AC45B1759F2 /* Foundation.framework */; };
+		F864EA94A9F7890742BB0AF0C4CB05B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5F818A1377CBEB274168C0AC176312 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5F489587264039F5BC046C9446B5345D /* PBXContainerItemProxy */ = {
+		5DA37ADA16B9E74236AEAB28A1E8E976 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B28DBC4375F9181D96AFE09A94884318;
-			remoteInfo = "Neuron-Neuron";
-		};
-		CC11863C598F22B413780C12D90F9550 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6381588BF781192ED207B5AD64570403;
+			remoteGlobalIDString = 1C2CE7F84ABA68B3CC885F1A1A9167CD;
 			remoteInfo = Neuron;
 		};
-		EA062B632A610ED21E7253D80F9BB891 /* PBXContainerItemProxy */ = {
+		B23180FD989E250E96BDE39015C22EEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6381588BF781192ED207B5AD64570403;
+			remoteGlobalIDString = 9798B5EE41D4FE68228B10A577601712;
+			remoteInfo = "Neuron-Neuron";
+		};
+		FBCE3C4AE49ADE612F770DCA637D222B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C2CE7F84ABA68B3CC885F1A1A9167CD;
 			remoteInfo = Neuron;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		056229A4970B3875D104EC4E2AFE7742 /* TargetObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TargetObject.swift; sourceTree = "<group>"; };
+		0F5F818A1377CBEB274168C0AC176312 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		10F953AF1FCF820C656FC1CA99634C6F /* Pods-Neuron_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Neuron_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1303B6554A97241404713444953AA0F2 /* Pods-Neuron_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Neuron_Tests-dummy.m"; sourceTree = "<group>"; };
+		19D8B75F7B890DAE6A96F4A27B639354 /* Neuron-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Neuron-umbrella.h"; sourceTree = "<group>"; };
 		361E91AA3EDEDE0EFB11CECD8BEF2CDB /* Pods-Neuron_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Neuron_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		38350D73618AE322FC2A8AC45B1759F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3C9B4942A56A25B8AECD657663C457E7 /* Pods_Neuron_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neuron_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD38E4DFE9091FE84A8FCBE41628B3C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41655C12977D6C73B4EC6E0721CA528F /* Neuron.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Neuron.swift; sourceTree = "<group>"; };
 		42B09AE29B6ABF741F607ACFA7E4E5DA /* Pods-Neuron_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Neuron_Example-umbrella.h"; sourceTree = "<group>"; };
 		42B9F036FC6CA557C909C7A5EC5EC856 /* Pods-Neuron_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Neuron_Tests-resources.sh"; sourceTree = "<group>"; };
 		4A80C2EDD4B603B12715AC11F97E8580 /* Pods-Neuron_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Neuron_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4EBA67833CF5C7A10D2AAE0318371480 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A06A037BA91519CE97E8AFD36C60EE /* Neuron.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Neuron.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F678AD132165219B12E28B0063C03F /* Neuron.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Neuron.xcconfig; sourceTree = "<group>"; };
 		5C39AAE80533A04C071825A6279262AA /* Pods-Neuron_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Neuron_Example-resources.sh"; sourceTree = "<group>"; };
 		66D8BF74CEC316A926C170ACB8871598 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		72680F081BF0534000C4CFAD /* Neuron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Neuron.swift; sourceTree = "<group>"; };
-		72680F091BF0534000C4CFAD /* NeuronSignal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeuronSignal.swift; sourceTree = "<group>"; };
-		72680F0A1BF0534000C4CFAD /* TargetObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetObject.swift; sourceTree = "<group>"; };
-		73182C755A02199AC20BAD9E07849C7D /* Neuron.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Neuron.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E99B346934427FDAC9F439AAE2723C4 /* Neuron.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Neuron.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		790917445606021C7E128F53C76842DB /* Pods-Neuron_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Neuron_Example-dummy.m"; sourceTree = "<group>"; };
 		8E42748C4839D09F649690659596E86A /* Pods-Neuron_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Neuron_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9011B8D951BFE6E1A8285190378E75F3 /* Neuron.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Neuron.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C32896BBF800278A2568FBB80FFDC19 /* Pods-Neuron_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Neuron_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AB426BC212E92C90F6E02039AE5EC385 /* Neuron-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Neuron-prefix.pch"; sourceTree = "<group>"; };
+		B39ADAFA4BF46600EE4F03BA8B3AF1FE /* Neuron-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Neuron-Private.xcconfig"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BE6AC4B0501ACD955C98FDE5FFFAD4F8 /* Pods-Neuron_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Neuron_Example-frameworks.sh"; sourceTree = "<group>"; };
 		BE71097717E158DE4BC19C4603EA1AEE /* Neuron.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Neuron.modulemap; sourceTree = "<group>"; };
+		C287C642E7A3A3F566286D5212EF3EBA /* NeuronSignal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NeuronSignal.swift; sourceTree = "<group>"; };
+		C59D4DD603D50C9FB652D3785BD692A1 /* Neuron-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Neuron-dummy.m"; sourceTree = "<group>"; };
 		D187DD5D78C838D4AF4681D65EFAA51B /* Pods-Neuron_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Neuron_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D362C06F33CFF92BCC664D659A46B87D /* Pods_Neuron_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neuron_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FBCD74CA87345203CE48DA9AE85DA0 /* Pods-Neuron_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Neuron_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D997137C8877AB3F175E10D5BF80D159 /* Neuron-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Neuron-dummy.m"; sourceTree = "<group>"; };
-		E4BDB1B5FD6D8C1E5504EB02CB60313C /* Neuron-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Neuron-umbrella.h"; sourceTree = "<group>"; };
 		E507AC966B90DDBDF9608E37D54521BF /* Pods-Neuron_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Neuron_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		E75D2F2DA439E094A606C50D7785FA9D /* Neuron-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Neuron-Private.xcconfig"; sourceTree = "<group>"; };
 		EB307D85B4419DD7A8160B55E393E904 /* Pods-Neuron_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Neuron_Example.modulemap"; sourceTree = "<group>"; };
 		EBBEC9EE94963766AC687903AEFC6324 /* Pods-Neuron_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Neuron_Tests.modulemap"; sourceTree = "<group>"; };
 		EE8608FE9A218D7C8873DD418A2297FA /* Pods-Neuron_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Neuron_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,13 +86,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		051313186B566502F33AD7A9D0CDBEFE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4DBDF1354B29062904D43EEC29F23648 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -101,11 +94,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5AE824437C7A233770035F55D60D3706 /* Frameworks */ = {
+		63E28EFEC1EEBC6D15B2E9BE23DFF16A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF3A9EBDCA03DE744B4163FFA66DE8F3 /* Foundation.framework in Frameworks */,
+				673E7B482ACDDDF172AAEAF52DBC2056 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A5D4279BB7EBD2D849DA1A269E6E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,10 +171,10 @@
 				3FD38E4DFE9091FE84A8FCBE41628B3C /* Info.plist */,
 				BE71097717E158DE4BC19C4603EA1AEE /* Neuron.modulemap */,
 				50F678AD132165219B12E28B0063C03F /* Neuron.xcconfig */,
-				E75D2F2DA439E094A606C50D7785FA9D /* Neuron-Private.xcconfig */,
-				D997137C8877AB3F175E10D5BF80D159 /* Neuron-dummy.m */,
+				B39ADAFA4BF46600EE4F03BA8B3AF1FE /* Neuron-Private.xcconfig */,
+				C59D4DD603D50C9FB652D3785BD692A1 /* Neuron-dummy.m */,
 				AB426BC212E92C90F6E02039AE5EC385 /* Neuron-prefix.pch */,
-				E4BDB1B5FD6D8C1E5504EB02CB60313C /* Neuron-umbrella.h */,
+				19D8B75F7B890DAE6A96F4A27B639354 /* Neuron-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Neuron";
@@ -183,23 +183,25 @@
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				38350D73618AE322FC2A8AC45B1759F2 /* Foundation.framework */,
+				0F5F818A1377CBEB274168C0AC176312 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		73AE79698EAC271ECB5D1FDC82393179 /* Pod */ = {
+		7239FDA647EE1A05181F437C6A900600 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				94172519D3ACA9FEC9F959155A3BB2E3 /* Classes */,
+				41655C12977D6C73B4EC6E0721CA528F /* Neuron.swift */,
+				C287C642E7A3A3F566286D5212EF3EBA /* NeuronSignal.swift */,
+				056229A4970B3875D104EC4E2AFE7742 /* TargetObject.swift */,
 			);
-			path = Pod;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7AB99D80F59F1136995DC8751AB45008 /* Neuron */ = {
 			isa = PBXGroup;
 			children = (
-				73AE79698EAC271ECB5D1FDC82393179 /* Pod */,
+				88F1DAB91AE2FE95BFA3E8AAFAD3CA1D /* Pod */,
 				348C9A62099A09E0CB8A69754633D475 /* Support Files */,
 			);
 			name = Neuron;
@@ -217,14 +219,12 @@
 			);
 			sourceTree = "<group>";
 		};
-		94172519D3ACA9FEC9F959155A3BB2E3 /* Classes */ = {
+		88F1DAB91AE2FE95BFA3E8AAFAD3CA1D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				72680F081BF0534000C4CFAD /* Neuron.swift */,
-				72680F091BF0534000C4CFAD /* NeuronSignal.swift */,
-				72680F0A1BF0534000C4CFAD /* TargetObject.swift */,
+				7239FDA647EE1A05181F437C6A900600 /* Classes */,
 			);
-			path = Classes;
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -238,8 +238,8 @@
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				73182C755A02199AC20BAD9E07849C7D /* Neuron.bundle */,
-				9011B8D951BFE6E1A8285190378E75F3 /* Neuron.framework */,
+				6E99B346934427FDAC9F439AAE2723C4 /* Neuron.bundle */,
+				50A06A037BA91519CE97E8AFD36C60EE /* Neuron.framework */,
 				D362C06F33CFF92BCC664D659A46B87D /* Pods_Neuron_Example.framework */,
 				3C9B4942A56A25B8AECD657663C457E7 /* Pods_Neuron_Tests.framework */,
 			);
@@ -257,11 +257,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		05C43709FB7C04DC3132E03E68FB9F92 /* Headers */ = {
+		3D43528147BBC9540C38A39933E9FC21 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB83BBDE5F54D9C453E6642977B77BCF /* Neuron-umbrella.h in Headers */,
+				10FD9002FCF33036B56BE36F3CE4838E /* Neuron-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +284,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1C2CE7F84ABA68B3CC885F1A1A9167CD /* Neuron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF44624B6FF8168190D2CC5BFF77AF85 /* Build configuration list for PBXNativeTarget "Neuron" */;
+			buildPhases = (
+				67CA86E69B84C6C4E5530A2B8A1AE42B /* Sources */,
+				63E28EFEC1EEBC6D15B2E9BE23DFF16A /* Frameworks */,
+				BC5FFFEA51FCF9649BCA694E41CE3B5C /* Resources */,
+				3D43528147BBC9540C38A39933E9FC21 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CEDA133C5EFF6E85C79A3E92B08903A /* PBXTargetDependency */,
+			);
+			name = Neuron;
+			productName = Neuron;
+			productReference = 50A06A037BA91519CE97E8AFD36C60EE /* Neuron.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		5C5E87B5613E2FAA8F1CCD5C7D4360F3 /* Pods-Neuron_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 334056F60FECA0543F2CDE954CDF409C /* Build configuration list for PBXNativeTarget "Pods-Neuron_Example" */;
@@ -295,31 +314,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				F371807B7009278AECDA6FAD9363639E /* PBXTargetDependency */,
+				B6DC903964B7584BD89E9FEFC8499E4A /* PBXTargetDependency */,
 			);
 			name = "Pods-Neuron_Example";
 			productName = "Pods-Neuron_Example";
 			productReference = D362C06F33CFF92BCC664D659A46B87D /* Pods_Neuron_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6381588BF781192ED207B5AD64570403 /* Neuron */ = {
+		9798B5EE41D4FE68228B10A577601712 /* Neuron-Neuron */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4440849CEFC777CB2F45237312AB762 /* Build configuration list for PBXNativeTarget "Neuron" */;
+			buildConfigurationList = 9FC8ADB068296F52F10801F65A1BCEB6 /* Build configuration list for PBXNativeTarget "Neuron-Neuron" */;
 			buildPhases = (
-				C967B5E90F5CE50B0339C109707B5052 /* Sources */,
-				5AE824437C7A233770035F55D60D3706 /* Frameworks */,
-				900A34D0C342C874742DB7CBE519A4A7 /* Resources */,
-				05C43709FB7C04DC3132E03E68FB9F92 /* Headers */,
+				77760A6453551FC069081A1ED4C5FEB4 /* Sources */,
+				94A5D4279BB7EBD2D849DA1A269E6E2F /* Frameworks */,
+				CE97932B4DF4E5F5B58AD71CD352D7F2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				653D9D99397B71C5FDD75FCF4D1DEACB /* PBXTargetDependency */,
 			);
-			name = Neuron;
-			productName = Neuron;
-			productReference = 9011B8D951BFE6E1A8285190378E75F3 /* Neuron.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "Neuron-Neuron";
+			productName = "Neuron-Neuron";
+			productReference = 6E99B346934427FDAC9F439AAE2723C4 /* Neuron.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		9A01F525B09FCF97196D083C6CB88855 /* Pods-Neuron_Tests */ = {
 			isa = PBXNativeTarget;
@@ -332,29 +349,12 @@
 			buildRules = (
 			);
 			dependencies = (
-				D925B08F6C358047753234CFFA48C437 /* PBXTargetDependency */,
+				73D107B9C4D773F81AAFE725AF10E094 /* PBXTargetDependency */,
 			);
 			name = "Pods-Neuron_Tests";
 			productName = "Pods-Neuron_Tests";
 			productReference = 3C9B4942A56A25B8AECD657663C457E7 /* Pods_Neuron_Tests.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		B28DBC4375F9181D96AFE09A94884318 /* Neuron-Neuron */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0B77A8DF03B40103B7B6DFA068F01133 /* Build configuration list for PBXNativeTarget "Neuron-Neuron" */;
-			buildPhases = (
-				B14DFFF3360854342E8682C765D0655B /* Sources */,
-				051313186B566502F33AD7A9D0CDBEFE /* Frameworks */,
-				CD215DF826E5603416CB83604AFE6DA5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Neuron-Neuron";
-			productName = "Neuron-Neuron";
-			productReference = 73182C755A02199AC20BAD9E07849C7D /* Neuron.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -377,8 +377,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6381588BF781192ED207B5AD64570403 /* Neuron */,
-				B28DBC4375F9181D96AFE09A94884318 /* Neuron-Neuron */,
+				1C2CE7F84ABA68B3CC885F1A1A9167CD /* Neuron */,
+				9798B5EE41D4FE68228B10A577601712 /* Neuron-Neuron */,
 				5C5E87B5613E2FAA8F1CCD5C7D4360F3 /* Pods-Neuron_Example */,
 				9A01F525B09FCF97196D083C6CB88855 /* Pods-Neuron_Tests */,
 			);
@@ -386,15 +386,15 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		900A34D0C342C874742DB7CBE519A4A7 /* Resources */ = {
+		BC5FFFEA51FCF9649BCA694E41CE3B5C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4620EF4A298AACCF705525BDC81DFF90 /* Neuron.bundle in Resources */,
+				80FD0D60CCF8BB110FA110439B407C4C /* Neuron.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD215DF826E5603416CB83604AFE6DA5 /* Resources */ = {
+		CE97932B4DF4E5F5B58AD71CD352D7F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -420,48 +420,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B14DFFF3360854342E8682C765D0655B /* Sources */ = {
+		67CA86E69B84C6C4E5530A2B8A1AE42B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				798C448E2E1AD1D2D1AF476C5CAA959F /* Neuron-dummy.m in Sources */,
+				729411354638219EBB2BE07E5071D956 /* Neuron.swift in Sources */,
+				B6F37C27056733E10010D01F0ECDDDDE /* NeuronSignal.swift in Sources */,
+				9B674F511FBC1C2B2A7045DFFB290A6E /* TargetObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C967B5E90F5CE50B0339C109707B5052 /* Sources */ = {
+		77760A6453551FC069081A1ED4C5FEB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72680F0D1BF0534000C4CFAD /* TargetObject.swift in Sources */,
-				22D068EB22707378122D78FB1B221CF2 /* Neuron-dummy.m in Sources */,
-				72680F0B1BF0534000C4CFAD /* Neuron.swift in Sources */,
-				72680F0C1BF0534000C4CFAD /* NeuronSignal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		653D9D99397B71C5FDD75FCF4D1DEACB /* PBXTargetDependency */ = {
+		73D107B9C4D773F81AAFE725AF10E094 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Neuron;
+			target = 1C2CE7F84ABA68B3CC885F1A1A9167CD /* Neuron */;
+			targetProxy = FBCE3C4AE49ADE612F770DCA637D222B /* PBXContainerItemProxy */;
+		};
+		9CEDA133C5EFF6E85C79A3E92B08903A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Neuron-Neuron";
-			target = B28DBC4375F9181D96AFE09A94884318 /* Neuron-Neuron */;
-			targetProxy = 5F489587264039F5BC046C9446B5345D /* PBXContainerItemProxy */;
+			target = 9798B5EE41D4FE68228B10A577601712 /* Neuron-Neuron */;
+			targetProxy = B23180FD989E250E96BDE39015C22EEE /* PBXContainerItemProxy */;
 		};
-		D925B08F6C358047753234CFFA48C437 /* PBXTargetDependency */ = {
+		B6DC903964B7584BD89E9FEFC8499E4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Neuron;
-			target = 6381588BF781192ED207B5AD64570403 /* Neuron */;
-			targetProxy = CC11863C598F22B413780C12D90F9550 /* PBXContainerItemProxy */;
-		};
-		F371807B7009278AECDA6FAD9363639E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Neuron;
-			target = 6381588BF781192ED207B5AD64570403 /* Neuron */;
-			targetProxy = EA062B632A610ED21E7253D80F9BB891 /* PBXContainerItemProxy */;
+			target = 1C2CE7F84ABA68B3CC885F1A1A9167CD /* Neuron */;
+			targetProxy = 5DA37ADA16B9E74236AEAB28A1E8E976 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		048A54321BDF25923F3E0C4179A22A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B39ADAFA4BF46600EE4F03BA8B3AF1FE /* Neuron-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Neuron;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -555,18 +567,6 @@
 			};
 			name = Debug;
 		};
-		24924B0CCCA27FDCD9C4977EF26E2082 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E75D2F2DA439E094A606C50D7785FA9D /* Neuron-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = Neuron;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		4015077FA1C525287B3BC2F1D0639BEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EE8608FE9A218D7C8873DD418A2297FA /* Pods-Neuron_Tests.release.xcconfig */;
@@ -635,9 +635,9 @@
 			};
 			name = Debug;
 		};
-		61C5BA5A16222C984E24D5ACAB54884D /* Debug */ = {
+		710E62834F69626BE959C57E2015227E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E75D2F2DA439E094A606C50D7785FA9D /* Neuron-Private.xcconfig */;
+			baseConfigurationReference = B39ADAFA4BF46600EE4F03BA8B3AF1FE /* Neuron-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 0.1.0;
@@ -652,16 +652,15 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Neuron/Neuron.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = Neuron;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		81D829512ADAE29BD8E7A6DA7F670C97 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -693,21 +692,9 @@
 			};
 			name = Debug;
 		};
-		911EFE9BC173D4C8C5EC651C50631A0B /* Release */ = {
+		C3046DD37E13C1B36168481FAABBE6BF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E75D2F2DA439E094A606C50D7785FA9D /* Neuron-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = Neuron;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		FF812279CB44B9E30C48A0B0B8A03FCB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E75D2F2DA439E094A606C50D7785FA9D /* Neuron-Private.xcconfig */;
+			baseConfigurationReference = B39ADAFA4BF46600EE4F03BA8B3AF1FE /* Neuron-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 0.1.0;
@@ -722,28 +709,32 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Neuron/Neuron.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = Neuron;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB11C6793AE77401AEB6612669CF885D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B39ADAFA4BF46600EE4F03BA8B3AF1FE /* Neuron-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Neuron;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B77A8DF03B40103B7B6DFA068F01133 /* Build configuration list for PBXNativeTarget "Neuron-Neuron" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				24924B0CCCA27FDCD9C4977EF26E2082 /* Debug */,
-				911EFE9BC173D4C8C5EC651C50631A0B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -771,11 +762,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4440849CEFC777CB2F45237312AB762 /* Build configuration list for PBXNativeTarget "Neuron" */ = {
+		9FC8ADB068296F52F10801F65A1BCEB6 /* Build configuration list for PBXNativeTarget "Neuron-Neuron" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				61C5BA5A16222C984E24D5ACAB54884D /* Debug */,
-				FF812279CB44B9E30C48A0B0B8A03FCB /* Release */,
+				048A54321BDF25923F3E0C4179A22A8C /* Debug */,
+				FB11C6793AE77401AEB6612669CF885D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF44624B6FF8168190D2CC5BFF77AF85 /* Build configuration list for PBXNativeTarget "Neuron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3046DD37E13C1B36168481FAABBE6BF /* Debug */,
+				710E62834F69626BE959C57E2015227E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
